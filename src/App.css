@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.toolbar {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.toolbar-btn {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.selected {
+    background: lightblue;
+    color: black;
+}
+
+.project-list {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-list_item {
+    margin: 15px;
+    list-style: none;
+}
